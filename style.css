@@ -1,0 +1,178 @@
+/* Estilos generales */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin: 5px;
+    background-color: dodgerblue;
+    padding: 6px;
+    border-radius: 10px;
+    transition:all .5s ease-in-out;
+}
+li:hover{
+    background-color: orange;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: grey 3px solid;
+}
+.logo{
+    
+    font-size: 60px !important;
+}
+/* Main */
+main{
+    background-image: url(./images/arg.jpg);
+    background-size: contain;
+}
+.messi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.messi div img{
+    border-radius: 20px;
+    width: 80%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto-img{
+    display: flex;
+    align-items: center;
+}
+
+.texto-img p{
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.2);
+    font-family: cursive;
+    padding: 15px;
+}
+
+iframe{
+    margin: 20px;
+    width: 70%;
+    height: 400px;
+}
+.messi-gif{
+    display: flex;
+    justify-content: center;
+}
+
+.messi-gif img{
+    width: 25%;
+    margin: 15px;
+}
+
+/* footer */
+.iconos-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconos-footer i{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    padding: 15px;
+}
+
+label, input, textarea, button{
+    font-size: 20px;
+}
+
+button{
+    margin: 5px;
+}
+
+.iconos-footer i:hover{
+    color: darkblue;
+}
+
+
+/* Breakpoints */
+/* Celular mediano */
+@media (min-width: 425px) and (max-width: 768px) {
+
+    /* Header */
+
+    li {
+        margin: 2px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a {
+        font-family: arial;
+        font-size: 15px;
+    }
+
+    .texto-img {
+        flex-direction: column;
+    }
+
+    .messi div img {
+        width: 98%;
+    }
+
+    iframe{
+        width: 98%;
+    }
+
+    .messi-gif img {
+        width: 32%;
+        margin: 4px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+  }
+
+  @media (min-width: 425px)  and (orientation: landscape)  {
+
+    iframe{
+        width: 100%;
+        height: 100vh;
+    }
+   }
+
+   @media (min-width: 768px) and (max-width: 1024px) {
+    .messi div img {
+        width: 60%;
+    }
+
+    iframe {
+        width: 80%;
+    }
+   }

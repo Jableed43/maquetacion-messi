@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef88cf4afb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<header id="header">
+    <span class="material-symbols-outlined logo">
+        sports_soccer
+        </span>
+    <ul> 
+        <li> <a href="#header"> Pagina Principal </a> </li>
+        <li> <a href="#videos"> Videos de Messi  </a> </li>
+        <li> <a href="#gifs"> Gifs de Messi </a> </li> 
+        <li> <a href="#contacto"> Contacto </a> </li>
+        <li> <a href="#redes"> Redes </a> </li>
+
+
+    </ul>
+</header>
+
+<main>
+    <article class="messi">
+        <h1>Messi</h1>
+        <div class="texto-img"> <p> Lionel Andrés Messi Cuccittini (Rosario, 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista. Jugador histórico del Fútbol Club Barcelona, al que estuvo ligado veinte años, desde 2021 integra el plantel del Paris Saint-Germain de la Ligue 1 de Francia. </p>
+             <img src="./images/messi.jpg" alt="messi"> </div>
+        
+        <iframe id="videos" src="https://www.youtube.com/embed/QE7MAyHTNSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    </article>
+    <h1>Messi Gif's</h1>
+    <div class="messi-gif" id="gifs">
+        <img src="./images/messipatin.gif" alt="messi-patinando">
+        <img src="./images/messirve.gif" alt="messirve">
+        <img src="./images/festejo.gif" alt="festejo">
+        
+    </div>
+    <form action="#" id="contacto">
+        <h2>Escribinos</h2>
+        <!-- Label es la etiqueta del input -->
+        <label for="nombre">Nombre Completo</label>
+        <input type="text" name="nombre">
+
+        <label for="domicilio">Domicilio</label>
+        <input type="text" name="domicilio">
+
+        <label for="telefono">Telefono</label>
+        <input type="number" name="telefono">
+
+        <label for="fechaNacimiento">Fecha Nacimiento</label>
+        <input type="date" name="fechaNacimiento">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" cols="30" rows="10"></textarea>
+
+        <button type="submit">¡Enviar Mensaje!</button>
+    </form>
+
+</main>
+
+<footer>
+    <h3> Nuestras Redes </h3>
+    <div class="iconos-footer" id="redes">
+        <a href="http://www.facebook.com"  target="_blank"> <i class="fab fa-facebook-square"></i>  </a>
+        <a href="http://www.youtube.com"  target="_blank"> <i class="fab fa-youtube"></i> </a>
+        <a href="http://www.instagram.com"  target="_blank"> <i class="fab fa-instagram"></i> </a>
+        <a href="https://www.afa.com.ar/es/"  target="_blank"> <i class="fas fa-futbol"></i> </a>
+        
+        
+        
+    </div>
+</footer>
+</body>
+</html>
