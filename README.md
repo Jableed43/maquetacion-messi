@@ -1,12 +1,13 @@
-## Maquetación Messi
+## Messi Layout
 
-*Se trata de un sitio web maquetado durante clase de programacion del CEPIT en mi rol de profesor*
+*Website layout and designed during a municipal school programming class in my role as a teacher*
 
-**Temas vistos:**
- - Maquetadado con flexbox
- - Importar fuentes, videos, gifs
- - Creacion de un form, label, inputs
- - Css, hover, mediaqueries, selectores, transition, background
- - Clases, id's, Links
+**Class Topics:**
+ - Layout Flexbox
+ - Import fonts, videos, gifs
+ - Form Creation, label, inputs
+ - Css, hover, mediaqueries, selector, transition, background
+ - Class, id's, Links, Tags
    
 > CEPIT web [Link](https://cepit.org.ar/)
+> [Site](https://jableed43.github.io/maquetacion-messi/)
